@@ -1,4 +1,4 @@
-package com.ken.mall.bowling;
+package com.ken;
 
 import java.util.ArrayList;
 import java.util.List;
