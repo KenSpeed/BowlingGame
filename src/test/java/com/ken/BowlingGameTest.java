@@ -102,4 +102,16 @@ public class BowlingGameTest {
         assertEquals(expectedScore, actualScore);
     }
 
+    @Test
+    void testAllMatched() {
+        BowlingGame game = new BowlingGame();
+        for (int i = 0; i < 10; i++) {
+            game.roll(0);
+            game.roll(0);
+        }
+        int expectedScore = 0;
+        int actualScore = game.calculateScore();
+        assertEquals(expectedScore, actualScore);
+    }
+
 }
