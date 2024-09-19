@@ -3,6 +3,9 @@ package com.ken;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Add Note for test
+ */
 public class BowlingGame {
     private List<Integer> rolls;
 
