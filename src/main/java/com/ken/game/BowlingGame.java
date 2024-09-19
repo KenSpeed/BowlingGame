@@ -1,4 +1,4 @@
-package com.ken;
+package com.ken.game;
 
 import java.util.ArrayList;
 import java.util.List;
